@@ -66,7 +66,7 @@
 - На  macOS: `cmd + shift + p`, введіть **Install Package Control**, та натисніть **Enter**.
 
 #### Далі, У Sublime Text, встановіть [LSP](https://packagecontrol.io/packages/LSP):
-- На Windows/Linux: `ctrl + shift + p`, виберіть **Package Control: Install Package**, введіть **LSP**, and press **Enter**.
+- На Windows/Linux: `ctrl + shift + p`, виберіть **Package Control: Install Package**, введіть **LSP**, та натисніть **Enter**.
 - На macOS: `cmd + shift + p`, виберіть **Package Control: Install Package**, введіть **LSP**, та натисніть **Enter**.
 
 #### Нарешті, у Sublime Text, встановіть [LSP-leo](https://packagecontrol.io/packages/LSP-leo):
