@@ -84,6 +84,7 @@
 #### Далі, у IntelliJ IDEA, відкрийте **IntelliJ Marketplace** та виберіть `Plugins`:
 - На Windows/Linux: `ctrl + ,` та виберіть `Plugins` у бічній панелі зліва
 - На macOS: `cmd + ,` та виберіть `Plugins` у бічній панелі зліва
+
 Наостанок, введіть **Leo** у поле пошуку та встановіть офіційний плагін Leo.
 </details>
 
