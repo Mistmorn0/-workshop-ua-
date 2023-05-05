@@ -1,154 +1,152 @@
 <!-- <h1 align="center">Aleo Workshop</h1> -->
 <img alt="workshop" width="1412" src="./.resources/readme.png">
-<h3 align="center">📜 A starter guide to build applications on Aleo 📜</h3>
+<h3 align="center">📜 Посібник для початківців з побудови ZK-додатків 📜</h3>
 
 <p align="center">
     <a href="https://twitter.com/AleoHQ"><img src="https://img.shields.io/twitter/url/https/twitter.com/AleoHQ.svg?style=social&label=Follow%20%40AleoHQ"></a>
     <a href="https://aleo.org/discord"><img src="https://img.shields.io/discord/700454073459015690?logo=discord"/></a>
 </p>
 
-## Table of Contents
-- [Build Guide](#build-guide)
-    - [Prerequisites](#prerequisites)
-    - [Installation](#installation)
-- [IDE Support](#ide-support)
-    - [VSCode](#vscode-preferred)
+## Зміст
+- [Посібник зі збірки](#посібник-зі-збірки)
+    - [Передумови](#передумови)
+    - [Встановлення](#встановлення)
+- [Підтримка IDE](#підтримка-ide)
+    - [VSCode](#vscode-рекомендовано)
     - [Sublime Text](#sublime-text)
     - [IntelliJ IDEA](#intellij-idea)
-- [Application Walkthroughs](#application-walkthroughs)
-    - [🏛️ Auction](#-auction) ([Source Code](./auction/))
-    - [🏦 Basic Bank](#-basic-bank) ([Source Code](./basic_bank/))
-    - [🛳️ Battleship](#-battleship) ([Source Code](./battleship/))
-    - [⭕ Tic-Tic-Toe](#-tic-tac-toe) ([Source Code](./tictactoe/))
-    - [🪙 Token](#-token) ([Source Code](./token))
-    - [🗳️ Vote](#-vote) ([Source Code](./vote/))
+- [Огляд застосунків](#огляд-застосунків)
+    - [🏛️ Аукціон ](#-аукціон) ([Source Code](./auction/))
+    - [🏦 Базовий банк](#-базовий-банк) ([Source Code](./basic_bank/))
+    - [🛳️ Морський бій](#-морський-бій) ([Source Code](./battleship/))
+    - [⭕ Хрестики-нулики](#-хрестики-нулики) ([Source Code](./tictactoe/))
+    - [🪙 Токен](#-токен) ([Source Code](./token))
+    - [🗳️ Голосування](#-голосування) ([Source Code](./vote/))
 
-## Build Guide
+## Посібник зі збірки
 
-The following steps will install Aleo and Leo on your machine. This workshop is compatible on macOS, Linux, and Windows machines.
+Наступні кроки допоможуть встановити Aleo та Leo на вашому комп'ютері. Цей практикум сумісний з macOS, Linux та Windows машинами.
 
-### Prerequisites
+### Передумови
 
-This workshop requires the following prerequisites.
+Для цього практикуму потрібні такі умови.
 
-- Install `git` with [bit.ly/start-git](https://bit.ly/start-git)
-- Install `Rust`with [bit.ly/start-rust](https://bit.ly/start-rust)
+- Встановіть `git` за посиланням [bit.ly/start-git](https://bit.ly/start-git)
+- Встановіть `Rust` за посиланням [bit.ly/start-rust](https://bit.ly/start-rust)
 
-### Installation
+### Встановлення
 
-To install Aleo and Leo, run:
+Щоб встановити Aleo та Leo, виконайте:
 ```
 ./install.sh
 ```
 
-## IDE Support
+## Підтримка IDE
 
-This workshop requires one of the following IDEs.
+Для цього воркшопу потрібне одне з наведених нижче середовищ розробки (IDE).
 - [VSCode](https://bit.ly/start-vscode)
 - [Sublime Text](https://bit.ly/start-sublime)
 - [IntelliJ IDEA](https://bit.ly/start-intellij)
 
-### VSCode (Preferred)
+### VSCode (Рекомендовано)
 
-Start by installing `VSCode` with [bit.ly/start-vscode](https://bit.ly/start-vscode).
+Почніть з встановлення `VSCode` за посиланням [bit.ly/start-vscode](https://bit.ly/start-vscode).
 
-#### Next, in VSCode, open the **VSCode Marketplace**, type **Leo** into the search bar, and proceed to install the Leo plugin.
+#### Далі, у VSCode, відкрийте **VSCode Marketplace**, введіть **Leo** у поле пошуку та встановіть плагін Leo.
 ![Leo VSCode](./.resources/leo-vscode.png)
 
 ### Sublime Text
 
-<details><summary>Installation Steps</summary>
+<details><summary>Кроки встановлення</summary>
 
-Start by installing `Sublime Text` with [bit.ly/start-sublime](https://bit.ly/start-sublime).
+Почніть з встановлення `Sublime Text` за посиланням [bit.ly/start-sublime](https://bit.ly/start-sublime).
 
-#### Next, in Sublime Text, install [Package Control](https://packagecontrol.io):
-- On Windows/Linux: `ctrl + shift + p`, type **Install Package Control**, and press **Enter**.
-- On macOS: `cmd + shift + p`, type **Install Package Control**, and press **Enter**.
+#### Далі, у Sublime Text, встановіть [Package Control](https://packagecontrol.io):
+- На  Windows/Linux: `ctrl + shift + p`, введіть **Install Package Control**, та натисніть **Enter**.
+- На  macOS: `cmd + shift + p`, введіть **Install Package Control**, та натисніть **Enter**.
 
-#### Next, in Sublime Text, install [LSP](https://packagecontrol.io/packages/LSP):
-- On Windows/Linux: `ctrl + shift + p`, select **Package Control: Install Package**, type **LSP**, and press **Enter**.
-- On macOS: `cmd + shift + p`, select **Package Control: Install Package**, type **LSP**, and press **Enter**.
+#### Далі, У Sublime Text, встановіть [LSP](https://packagecontrol.io/packages/LSP):
+- На Windows/Linux: `ctrl + shift + p`, виберіть **Package Control: Install Package**, введіть **LSP**, and press **Enter**.
+- На macOS: `cmd + shift + p`, виберіть **Package Control: Install Package**, введіть **LSP**, та натисніть **Enter**.
 
-#### Lastly, in Sublime Text, install [LSP-leo](https://packagecontrol.io/packages/LSP-leo):
-- On Windows/Linux: `ctrl + shift + p`, select **Package Control: Install Package**, type **LSP-leo**, and press **Enter**.
-- On macOS: `cmd + shift + p`, select **Package Control: Install Package**, type **LSP-leo**, and press **Enter**.
+#### Нарешті, у Sublime Text, встановіть [LSP-leo](https://packagecontrol.io/packages/LSP-leo):
+- На Windows/Linux: `ctrl + shift + p`, виберіть **Package Control: Install Package**, введіть **LSP-leo**, та натисніть **Enter**.
+- На macOS: `cmd + shift + p`, виберіть **Package Control: Install Package**, введіть **LSP-leo**, та натисніть **Enter**.
 
 </details>
 
 ### IntelliJ IDEA
 
-<details><summary>Installation Steps</summary>
+<details><summary>Кроки встановлення</summary>
 
-Start by installing `IntelliJ IDEA` with [bit.ly/start-intellij](https://bit.ly/start-intellij).
+Почніть з встановлення `IntelliJ IDEA` за посиланням [bit.ly/start-intellij](https://bit.ly/start-intellij).
 
-#### Next, in IntelliJ IDEA, open the **IntelliJ Marketplace** and select `Plugins`:
-- On Windows/Linux: `ctrl + ,` and select `Plugins` on the left hand bar
-- On macOS: `cmd + ,` and select `Plugins` on the left hand bar
-
-Lastly, type **Leo** into the search bar, and install the official Leo plugin.
-
+#### Далі, у IntelliJ IDEA, відкрийте **IntelliJ Marketplace** та виберіть `Plugins`:
+- На Windows/Linux: `ctrl + ,` та виберіть `Plugins` у бічній панелі зліва
+- На macOS: `cmd + ,` та виберіть `Plugins` у бічній панелі зліва
+Наостанок, введіть **Leo** у поле пошуку та встановіть офіційний плагін Leo.
 </details>
 
-## Application Walkthroughs
+## Огляд додатків
 
-This workshop walks through the following applications:
-- [auction](./auction/) - A first-price sealed-bid auction in Leo
-- [basic_bank](./basic_bank/) - A simple-interest yielding bank account in Leo
-- [battleship](./battleship/)- A two-player game of Battleship in Leo
-- [tictactoe](./tictactoe/) - A standard game of Tic-Tac-Toe in Leo
-- [token](./token) - A transparent & shielded custom token in Leo
-- [vote](./vote/) - A ballot voting example in Leo
+У цьому воркшопі розглядаються такі програми:
+- [Аукціон](./auction/) - Перша цінова аукціонна торгівля в Leo
+- [Простий банківський рахунок](./basic_bank/) - Простий банківський рахунок зі ставкою відсотка в Leo
+- [Морський бій](./battleship/)-  Гра для двох гравців "Морський бій" в Leo
+- [Гра в хрестики-нулики](./tictactoe/) - Стандартна гра в хрестики-нулики в Leo
+- [Токен](./token) - Прозорий і захищений користувацький токен в Leo
+- [Голосування](./vote/) - Приклад голосування за бюлетенем в Leo
 
-### 🏛️ Auction
+### 🏛️ Аукціон
 
-A first-price sealed-bid auction in Leo.
+Перша цінова аукціонна торгівля в Leo.
 
-To see the auction example, run:
+Щоб побачити приклад аукціону, виконайте:
 ```
 cd auction && ./run.sh
 ```
 
-### 🏦 Basic Bank
+### 🏦 Простий банківський рахунок
 
-A simple-interest yielding bank account in Leo.
+Простий банківський рахунок зі ставкою відсотка в Leo.
 
-To see the basic bank example, run:
+Щоб побачити приклад простого банку, виконайте:
 ```
 cd basic_bank && ./run.sh
 ```
 
-### 🛳️ Battleship
+### 🛳️ Морський бій
 
-A two-player game of Battleship in Leo.
+Гра для двох гравців "Морський бій" в Leo.
 
-To see a game of Battleship between two players, run:
+Щоб побачити гру "Морський бій" між двома гравцями, виконайте:
 ```
 cd battleship && ./run.sh
 ```
 
-### ⭕ Tic-Tac-Toe
+### ⭕ Гра в хрестики-нулики
 
-A standard game of Tic-Tac-Toe in Leo.
+Стандартна гра в хрестики-нулики в Leo.
 
-To see a game of Tic-Tac-Toe between two players, run:
+Щоб побачити гру в хрестики-нулики між двома гравцями, виконайте:
 ```
 cd tictactoe && ./run.sh
 ```
 
-### 🪙 Token
+### 🪙 Токен
 
-A transparent & shielded custom token in Leo.
+Прозорий і захищений користувацький токен в Leo.
 
-To see an example of minting and transfering tokens, run:
+Щоб побачити приклад створення та переказу токенів, виконайте:
 ```
 cd token && ./run.sh
 ```
 
-### 🗳️ Vote
+### 🗳️ Голосування
 
-A ballot voting example in Leo.
+Приклад голосування за бюлетенем в Leo.
 
-To see an example of a ballot, run:
+Щоб побачити приклад голосувального бюлетеня, виконайте:
 ```
 cd vote && ./run.sh
 ```
