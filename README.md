@@ -1,6 +1,6 @@
 <!-- <h1 align="center">Aleo Workshop</h1> -->
 <img alt="workshop" width="1412" src="./.resources/readme.png">
-<h3 align="center">📜 Посібник для початківців з побудови ZK-додатків 📜</h3>
+<h3 align="center">📜 Посібник для початківців зі створення додатків на Aleo 📜</h3>
 
 <p align="center">
     <a href="https://twitter.com/AleoHQ"><img src="https://img.shields.io/twitter/url/https/twitter.com/AleoHQ.svg?style=social&label=Follow%20%40AleoHQ"></a>
